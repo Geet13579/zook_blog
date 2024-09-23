@@ -1,0 +1,73 @@
+::-webkit-scrollbar {
+  height: 5px;
+}
+
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d1d1d1;
+  border-radius: 100px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b4b4b4;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.news-desc h1 {
+  @apply mb-3 text-gray-600 text-5xl leading-relaxed;
+}
+
+.news-desc h2 {
+  @apply mb-3 text-gray-600 text-4xl leading-relaxed;
+}
+
+.news-desc h3 {
+  @apply mb-3 text-gray-600 text-3xl leading-relaxed;
+}
+
+.news-desc h4 {
+  @apply mb-3 text-gray-600 text-2xl leading-relaxed;
+}
+
+.news-desc h5 {
+  @apply mb-3 text-gray-600 text-xl leading-relaxed;
+}
+
+.news-desc h6 {
+  @apply mb-3 text-gray-600 text-lg leading-relaxed;
+}
+
+.news-desc p {
+  @apply mb-3 text-gray-600 leading-relaxed;
+}
+
+.news-desc strong {
+  @apply text-gray-800;
+}
+
+.news-desc a {
+  @apply text-blue-600 underline underline-offset-2 font-medium;
+}
+
+.news-desc img {
+  @apply object-contain w-full;
+}
+
+.news-desc #player {
+  @apply object-contain w-full h-full;
+}

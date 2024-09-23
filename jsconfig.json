@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@assets/*": ["./src/assets/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@components/*": ["./src/components/*"],
+      "@redux/*": ["./src/redux/*"]
+    }
+  }
+}
